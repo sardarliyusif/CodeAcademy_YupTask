@@ -1,0 +1,49 @@
+.login-form{
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 400px;
+    &__head{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    &__section{
+        margin-bottom: 1rem;
+        min-width: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__input{
+            width: 90%;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            padding: 1rem 1rem;
+            margin-bottom: 0.5rem;
+        }
+        &__error{
+            color: red;
+            max-width: 95%;
+            font-weight: 700;
+            font-size: 0.75rem;
+        }
+    }
+    &__button{
+        width: 100%;
+        background-color: #1877f2;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    &__forgot{
+        color: #1877f2;
+    }
+}
